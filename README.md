@@ -2,13 +2,13 @@
 This console application generates the closest output to the actual image of a receipt from the OCR-generated JSON file of the receipt.
 ## Table of Contents
 - [Features](#features)
-- [Installation&Usage](#Installation&Usage)
-- [How It Works](#howitworks)
+- [Installation & Usage](#installation--usage)
+- [How It Works](#how-it-works)
 
 ## Features
 Reads Receipt json file then generates a text output closest to receipt original appearance.
 
-## Installation&Usage
+## Installation & Usage
 1. Clone the repository: `git clone [https://github.com/sayitkilic/receipt-scanner.git]`
 2. Navigate to the project directory: `cd receipt-scanner`
 3. Run

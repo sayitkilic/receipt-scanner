@@ -13,6 +13,7 @@ namespace ReceiptScanner
          * Below function decides whether two receiptItems are on the same row or not.
          * First, It calculates the midpoint of the height of one receiptItem and check if it is within the height of the other receiptItem
          * If this condition holds true for the second receiptItem as well, Both of them are on the same row
+         * The Y values were not compared directly because the Y values of the receipt items on the same line are not the same.
          */
         public bool Equals(ReceiptItem item1, ReceiptItem item2)    
         {
